@@ -1,0 +1,101 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+.info {
+    text-align: center;
+    margin-right: 600px;
+}
+section.article {
+    background-color: #DEFBCD;
+}
+
+.article-h{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: oblique;
+    margin: 20px;
+}
+.article-intro{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.article-intro img{
+    width: 416px;
+    height: 416px;
+    border-radius: 25px;
+    box-shadow: 5px;
+}
+.article-intro p{
+    font-size: 26px;
+    text-align: center;
+    width: 50%;
+}
+.article-liens{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.article-liens img{
+    width: 227px;
+    height: 192px;
+    border-radius: 20px;
+}
+.article-liens figcaption{
+    text-align: center;
+    width:227px ;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: oblique;
+}
+.article-content{
+    width: 100%;
+    height:600px;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    border-radius: 60px;
+    margin-bottom: 40px;
+
+}
+.article-content h3{
+    font-size: 28px;
+    font-weight: 800;
+    font-style: oblique;
+    opacity: 1.5 ;
+    margin-bottom: 10px;
+}
+.article-content p{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+.video-explicatif{
+    margin-bottom: 20px;
+}
+.video-explicatif h3{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+    font-style: oblique;
+}
+.video-explicatif video{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
